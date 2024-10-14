@@ -58,14 +58,23 @@ Decoding Process
 The script performs the following key steps:
 
 Base64 Decoding: The input message is first decoded from Base64 into raw bytes.
+
 Message Validation: The first part of the message is checked for the NTLM signature to ensure it is a valid NTLM message.
+
 Field Extraction:
+
 Target Name: Extracted from the message using offsets and length.
+
 NetBIOS and DNS Information: The computer name and domain are extracted by parsing Attribute Value (AV) pairs.
+
 Windows Version: The major, minor version, and build number of the Windows system are extracted.
+
 Timestamp: The NTLM timestamp (in FileTime format) is converted into a human-readable datetime format.
+
 Output: The extracted information is printed in a readable format for analysis.
+
 Decoded Information
+
 The script will output the following information based on the NTLM Type 2 message:
 
 Target: The NetBIOS name of the target server.
