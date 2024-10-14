@@ -23,6 +23,7 @@ python3 SSPDecoder.py -u "NTLM encoded SSP Message Here"
 
 The script will output key details decoded from the NTLM SSP message:
 
+```
 Raw NTLM bytes (hex): <raw bytes in hex for debugging purposes>
 
 Target: Example
@@ -40,6 +41,7 @@ MsvAvDnsComputerName: Example
 MsvAvDnsTreeName: Example
 
 MsvAvTimestamp: 2024-10-09 01:07:14
+```
 
 How It Works
 NTLM SSP and Type 2 Messages
