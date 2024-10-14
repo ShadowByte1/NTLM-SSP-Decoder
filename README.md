@@ -69,13 +69,21 @@ Decoded Information
 The script will output the following information based on the NTLM Type 2 message:
 
 Target: The NetBIOS name of the target server.
+
 MsvAvNbComputerName: The NetBIOS name of the server.
+
 MsvAvDnsDomainName: The DNS domain name of the target server.
+
 Version: The Windows operating system version and build number (e.g., Windows Server 2012 R2 / Windows 8.1).
+
 MsvAvNbDomainName: The NetBIOS domain name.
+
 MsvAvDnsComputerName: The fully qualified DNS name of the server.
+
 MsvAvDnsTreeName: The DNS tree name for the server's domain.
+
 MsvAvTimestamp: The NTLM timestamp converted into a human-readable format.
+
 Troubleshooting
 Invalid NTLM Message
 If the script outputs an error like Not an NTLM message, make sure the input is a valid Base64-encoded NTLM Type 2 message.
