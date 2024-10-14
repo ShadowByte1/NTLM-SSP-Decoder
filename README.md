@@ -17,21 +17,28 @@ Usage
 To use the script, simply run the following command:
 
 python3 SSPDecoder.py -u "<Base64-encoded NTLM SSP message>"
-Example
-bash
+
 Copy code
 python3 SSPDecoder.py -u "NTLM encoded SSP Message Here"
 
 The script will output key details decoded from the NTLM SSP message:
 
 Raw NTLM bytes (hex): <raw bytes in hex for debugging purposes>
+
 Target: Example
+
 MsvAvNbComputerName: Example
+
 MsvAvDnsDomainName: Example
+
 Version: Windows Server 2012 R2 / Windows 8.1
+
 MsvAvNbDomainName: Example
+
 MsvAvDnsComputerName: Example
+
 MsvAvDnsTreeName: Example
+
 MsvAvTimestamp: 2024-10-09 01:07:14
 
 How It Works
